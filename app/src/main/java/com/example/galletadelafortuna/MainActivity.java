@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         try {
             switch (seleccionar){
                 case R.id.CLIC:
-                    String[] premios ={"VOLVERAS CON TU EX", "TU CRUSH TE HARA CASO", "TENDRAS SALUD Y ESO ES LO IMPORTANTE","ANDARAS ARREBATA'O EN LA JEEPETA","LOGRARAS TODO LO QUE DESEAS"};
+                    String[] premios ={"VOLVERAS CON TU EX", "TU CRUSH TE HARA CASO", "TENDRAS SALUD Y ESO ES LO IMPORTANTE","ANDARAS ARREBATA'O EN LA JEEPETA","LOGRARAS TODO LO QUE DESEAS","BY: lily"};
                     String alee = (premios[new Random().nextInt(premios.length)]);
                     showtex.setText(alee);
                     //System.out.println("\n"+"PUEDO VER EN TU FUTURO QUE...!  :  "+"\n"+alee);
